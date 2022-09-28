@@ -1,5 +1,5 @@
-import my_module
+from my_module import Fibonacci
 
 p = int(input("Введіть P: "))
 
-print("Fibonacci = ", my_module.Fibonacci(p))
+print("Fibonacci = ", Fibonacci(p))
